@@ -1,0 +1,74 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+header {
+    background-color: hsl(0, 0%, 85%);
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 15%);
+    overflow: hidden;
+    margin: 0px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 5%);
+}
+
+#about {
+    margin: 20px;
+}
+
+#introduction {
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+
+#profile {
+    width: 50%;
+    float: right;
+}
+
+#profile table, #profile tr, #profile td {
+    border-collapse: collapse;
+    border: 1.8px solid hsl(0, 0%, 40%);
+    text-align: center;
+}
+
+#contact {
+    clear: both;
+    margin: 20px;
+}
+
+footer {
+    background-color: hsl(0, 0%, 85%);
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    #introduction, #profile {
+        width: 100%;
+    }
+}
